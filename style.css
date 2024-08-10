@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aliceblue;
+}
+header {
+  background: linear-gradient(rgb(0, 134, 134), rgb(0, 255, 255));
+  width: 100%;
+  height: 80px;
+  border-bottom: solid 8px rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header img {
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 50px;
+  font-size: 30px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+header ul li a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+.section1 {
+  background: linear-gradient(rgb(0, 255, 255), rgb(0, 228, 228));
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  position: relative;
+}
+.about {
+  width: 600px;
+  height: 400px;
+  background-color: rgba(0, 60, 88, 0.6);
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 5%;
+}
+.img .Pharmacy {
+  display: flex;
+  width: 520px;
+  height: 430px;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+.about h1 {
+  position: absolute;
+  top: 90px;
+  font-size: 30px;
+  left: 105px;
+  color: yellow;
+}
+.p {
+  display: flex;
+  position: absolute;
+  width: 480px;
+  text-align: justify;
+  left: 60px;
+  margin: auto;
+  top: 150px;
+  color: white;
+}
+
+.section2 {
+  width: 80%;
+  height: 250px;
+  background: linear-gradient(rgb(0, 255, 255), rgb(0, 197, 197));
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+.section2 h1 {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+.section2 p {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  left: 5%;
+  text-align: justify;
+  width: 90%;
+  font-size: 20px;
+}
+
+.section3 {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 50px;
+}
+.section3 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section3 h1 {
+  font-size: 40px;
+  padding-left: 20px;
+  color: rgb(10, 112, 78);
+}
+.section3 .item {
+  width: 400px;
+  height: 450px;
+  margin: 20px;
+  border-radius: 10px;
+  border-bottom: 2px solid rgb(10, 112, 78);
+  border-top: 2px solid rgb(10, 112, 78);
+  border-left: 2px solid rgb(10, 112, 78);
+  box-shadow: 11px;
+}
+
+.section3 .item .img1 {
+  position: absolute;
+  top: 325px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.section3 .item .img2 {
+  position: absolute;
+  top: 325px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.section3 .item .img3 {
+  position: absolute;
+  top: 325px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.section3 .item .img4 {
+  position: absolute;
+  top: 819px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.section3 .item .img5 {
+  position: absolute;
+  top: 819px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.section3 .item .img6 {
+  position: absolute;
+  top: 819px;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+.section3 .item h2 {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.section4 {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 40px;
+}
+
+.section4 h1 {
+  font-size: 40px;
+  padding-left: 20px;
+  color: rgb(10, 112, 78);
+}
+
+.section4 .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section4 .item {
+  width: 400px;
+  height: 550px;
+  margin: 20px;
+  border-radius: 10px;
+  border-bottom: 2px solid rgb(10, 112, 78);
+  border-top: 2px solid rgb(10, 112, 78);
+  border-left: 2px solid rgb(10, 112, 78);
+  box-shadow: 11px;
+}
+.section4 .item .img11 {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.section4 .item .img12 {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.section4 .item .img13 {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.section4 .item .img14 {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.section4 .item .img15 {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.section4 .item .img16 {
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+}
+.section4 .item h3 {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.section4 button {
+  padding: 8px 10px;
+  background-color: rgb(10, 112, 78);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.section4 button:hover {
+  background-color: rgb(2, 155, 104);
+}
+.section5 {
+  position: relative;
+}
+.section5 footer {
+  height: 250px;
+  background-color: aqua;
+}
+.section5 .container {
+  display: flex;
+  flex-direction: column;
+}
+.section5 .material-icons {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.section5 .material-symbols-outlined {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  padding-bottom: 15px;
+  color: green;
+}
+.section5 .h1 {
+  position: absolute;
+  top: 85px;
+  left: 23%;
+  font-size: 50px;
+}
+.section5 .h2 {
+  position: absolute;
+  top: 35px;
+  left: 53%;
+}
+.section5 .h3 {
+  position: absolute;
+  top: 110px;
+  left: 53%;
+}
+.section5 .h4 {
+  position: absolute;
+  top: 170px;
+  left: 53%;
+}
